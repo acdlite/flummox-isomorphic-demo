@@ -33,6 +33,14 @@ let StargazerGrid = React.createClass({
     };
   },
 
+  componentDidMount() {
+    this.stargazerStore.addListener('change', this.onStargazerStoreChange);
+  },
+  
+  componentWillUnmount() {
+    this.stargazerStore.removeListener('change', this.onStargazerStoreChange);
+  },
+
   onStargazerStoreChange() {
     let { owner, repo } = this.getParams();
 
