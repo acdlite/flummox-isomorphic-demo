@@ -4,7 +4,9 @@ Demo of how to create isomorphic apps using Flummox and react-router. Fetches an
 
 Needs more work, but it should get the basic idea across until I find time to make it better. Pull requests definitely welcome :)
 
-Tools/technologies used:
+![Preview](preview.png)
+
+## Tools/technologies used:
 
 - Flummox
 - React
