@@ -1,0 +1,26 @@
+doctype html
+html(class='no-js')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+    title=title
+
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')          
+
+  body
+    #app!=appString
+  
+  script.
+    WebFontConfig = {
+      google: {
+        families: [ ],
+      },
+    };
+  
+  if (env.NODE_ENV == 'development')
+    
+    script(src='http://0.0.0.0:8080/js/app.js', defer)
+  else
+    script(src='/js/app.min.js', defer)
