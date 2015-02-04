@@ -1,7 +1,7 @@
 {
   "name": "flummox-isomorphic-demo",
   "version": "1.0.0",
-  "description": "Demo app demonstrating how simple it is to create isomorphic apps using Flummox and react-router",
+  "description": "Demo of how to create isomorphic apps using Flummox and react-router",
   "main": "app.js",
   "scripts": {
     "prestart": "make fast-build",
