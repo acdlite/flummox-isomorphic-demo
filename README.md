@@ -34,6 +34,6 @@ $ npm install -g nodemon
 $ make watch
 ```
 
-to start a dev server (with hot reload enabled) on port 3000
+to start a dev server (with hot reload enabled) on port 3000. Then navigate to http://localhost:3000/stargazers/acdlite/flummox (or any url of the form `/stargazers/:owner/:repo`)
 
 Make sure you're running on iojs, for generator support
