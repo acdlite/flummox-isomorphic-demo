@@ -28,7 +28,10 @@ Clone this repo, then run
 
 ```
 $ npm install
+$ npm install -g nodemon
 $ make watch
 ```
 
 to start a dev server (with hot reload enabled) on port 3000
+
+Make sure you're running on iojs, for generator support
