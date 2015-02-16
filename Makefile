@@ -39,7 +39,7 @@ watch-js:
 webpack: public/js/app.js
 
 webpack-dev: $(LIB_JS)
-	node ./lib/server/webpack
+	node --harmony ./lib/server/webpack
 
 public/js/app.js: $(SRC_JS)
 	$(WEBPACK_CMD)
