@@ -18,7 +18,7 @@ Needs more work, but it should get the basic idea across until I find time to ma
 - koa
 - iojs
 - superagent
-- 6to5
+- babel
 - jade
 - make
 
