@@ -3,8 +3,8 @@
 /*
  * Polyfills
  */
-require('6to5/runtime');
-import '6to5/polyfill';
+// require('babel/runtime');
+import 'babel/polyfill';
 
 /*
  * Superagent promisification

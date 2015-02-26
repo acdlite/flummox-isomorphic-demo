@@ -23,7 +23,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.jsx?$/, loaders: ['react-hot', '6to5-loader?experimental&runtime'], exclude: /node_modules/ }
+      { test: /\.jsx?$/, loaders: ['react-hot', 'babel-loader?experimental'], exclude: /node_modules/ }
     ]
   }
 };
