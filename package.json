@@ -23,7 +23,7 @@
   "author": "Andrew Clark <acdlite@me.com>",
   "license": "ISC",
   "dependencies": {
-    "flummox": "~2.2.1",
+    "flummox": "~2.13.0",
     "immutable": "~3.6.2",
     "koa": "~0.16.0",
     "koa-conditional-get": "~1.0.2",
