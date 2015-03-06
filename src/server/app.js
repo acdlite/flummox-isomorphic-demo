@@ -1,5 +1,3 @@
-'use strict';
-
 // Initialization
 require('../shared/init');
 import sourceMapSupport from 'source-map-support';

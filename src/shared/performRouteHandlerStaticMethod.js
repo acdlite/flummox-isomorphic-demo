@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Accepts an array of matched routes as returned from react-router's
  * `Router.run()` and calls the given static method on each. The methods may
