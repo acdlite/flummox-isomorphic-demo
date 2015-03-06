@@ -1,5 +1,3 @@
-'use strict';
-
 require('../shared/init');
 
 import webpack from 'webpack';

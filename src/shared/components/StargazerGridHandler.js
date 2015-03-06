@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import { State } from 'react-router';
 import Immutable from 'immutable';

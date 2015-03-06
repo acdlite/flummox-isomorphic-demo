@@ -1,5 +1,3 @@
-'use strict';
-
 import { Flummox } from 'flummox';
 
 import StargazerActions from './actions/StargazerActions';

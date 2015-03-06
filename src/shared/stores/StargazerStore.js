@@ -1,5 +1,3 @@
-'use strict';
-
 import { Store } from 'flummox';
 import Immutable from 'immutable';
 

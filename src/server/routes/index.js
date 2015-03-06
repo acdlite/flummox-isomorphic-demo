@@ -1,5 +1,3 @@
-'use strict';
-
 import middleware from './middleware';
 import appIndex from './views/appIndex';
 
