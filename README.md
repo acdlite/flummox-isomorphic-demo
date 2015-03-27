@@ -1,3 +1,5 @@
+##No longer maintained. Check out the source for Flummox's [documentation](https://github.com/acdlite/flummox/tree/master/docs) for an updated version of this project.##
+
 # Flummox Isomorphic Demo
 
 **Very much a work in progress**
